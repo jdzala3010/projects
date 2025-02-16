@@ -13,7 +13,6 @@ The dataset includes information on **games, publishers, platforms, regions, and
 - **MySQL Workbench** for executing queries and visualization  
 - **GitHub** for version control
 
-- 
 ## 📊 Key SQL Queries Solved
 ### ✅ **1. Top 5 Genres by Global Sales**
 - Identifies the highest-selling game genres worldwide.
