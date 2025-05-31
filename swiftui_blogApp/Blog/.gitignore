@@ -1,0 +1,50 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+
+# User-specific Xcode settings
+*.xcuserdatad/
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# SPM
+Package.resolved
+Packages/
+
+# Firebase sensitive config
+GoogleService-Info.plist
+
+# Other system files
+.DS_Store
+*.swp
+*.lock
+*.orig
+
+# Simulator logs
+*.crash
+*.log
+*.tmp
+
+# Custom: Exclude Info.plist if needed
+Info.plist
+
+# Environment files (optional)
+.env
