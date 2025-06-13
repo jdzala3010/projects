@@ -125,7 +125,7 @@ final class NetworkManager {
         request.timeoutInterval = 10
         request.allHTTPHeaderFields = [
           "accept": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ODA1M2Y4YWRmMWFhOWEwM2Q1NmQ3OTQ3YTE5MTc0YyIsIm5iZiI6MTc0ODg2NDQ1MS40MTUsInN1YiI6IjY4M2Q4ZGMzMjcwYmE1YWEwMWZkYjNlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4yQ5a3g9V8t-Wf1EC0FBFJvAB1dxqiiWBXne690RCX0"
+          "Authorization": "Bearer \(Constants.APIToken)"
         ]
         
         URLSession.shared.dataTask(with: request) { data, _, error in
@@ -184,7 +184,7 @@ final class NetworkManager {
         request.timeoutInterval = 20
         request.allHTTPHeaderFields = [
           "accept": "application/json",
-          "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ODA1M2Y4YWRmMWFhOWEwM2Q1NmQ3OTQ3YTE5MTc0YyIsIm5iZiI6MTc0ODg2NDQ1MS40MTUsInN1YiI6IjY4M2Q4ZGMzMjcwYmE1YWEwMWZkYjNlYyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4yQ5a3g9V8t-Wf1EC0FBFJvAB1dxqiiWBXne690RCX0",
+          "Authorization": "Bearer \(Constants.APIToken)",
           "User-Agent": "Mozilla/5.0"
         ]
 
